@@ -13,8 +13,12 @@ König, J., Jenkins, M.D., Mannion, M., Barrie, P. and Morison, G., 2021. Optimi
 The models in this paper have been trained/evaluated on [CrackForest](https://github.com/cuilimeng/CrackForest-dataset), the [DeepCrack (Transactions on Image Processing)](https://ieeexplore.ieee.org/document/8517148) and [Deepcrack (Neurocomputing)](https://github.com/yhlleo/DeepCrack) datasets.
 
 
-# Code & Pretrained Models
-**Code will follow soon**
+# Code 
+The code for the model is contained within the `model.py` file. 
+To generate the model for training call the `get_model()` function. 
+
+# Requirements
+This code requries Tensorflow 2.0 or higher and the EfficientNets from [here](https://github.com/qubvel/efficientnet).
 
 --- 
 # Reference
